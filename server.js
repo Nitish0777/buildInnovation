@@ -40,8 +40,5 @@ app.listen(port, (err) => {
   if (err) {
     return console.log("something bad happened", err);
   }
-  console.log(
-    `Server Running on ${process.env.DEV_MODE} mode & listening on port: ${port}!`
-      .bgCyan.white
-  );
+  console.log(`Server Running on mode & listening on port: ${port}!`);
 });
